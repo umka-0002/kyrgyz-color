@@ -1,0 +1,80 @@
+/* src/shared/components/Footer/Footer.module.css */
+
+.footer {
+    background-color: #f0f0f0;
+    color: #486B43;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .logo img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .copyright {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .newsletter {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form {
+    display: flex;
+  }
+  
+  .input {
+    padding: 10px;
+    border: solid 0.5px #486B43;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #486B43;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #486b43;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socialLink {
+    color: #486b43;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .socialLink:hover {
+    color: #486b43;
+  }
+  

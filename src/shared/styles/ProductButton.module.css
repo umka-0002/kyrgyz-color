@@ -1,0 +1,12 @@
+/* src/shared/components/ProductButton/ProductButton.module.css */
+.button {
+    position: relative;
+    right: 370px;
+    top: 370px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    width: 350px; /* Измените размер по вашему усмотрению */
+  }
+  

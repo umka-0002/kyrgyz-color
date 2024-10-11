@@ -1,0 +1,17 @@
+.section {
+    margin: 20px 0;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5em;
+    margin-bottom: 50px;
+  }
+  
+  .productList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 4em;
+    margin-top: 20px;
+  }
+  

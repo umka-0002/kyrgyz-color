@@ -1,0 +1,22 @@
+.button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #138496;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #17a2b8;
+  }
+  
+  .link:hover {
+    color: #138496;
+  }
+  

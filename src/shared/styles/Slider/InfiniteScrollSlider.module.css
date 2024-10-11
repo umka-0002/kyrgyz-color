@@ -1,0 +1,33 @@
+/* src/shared/components/InfiniteScrollSlider/InfiniteScrollSlider.module.css */
+.sliderContainer {
+    margin-top: 100px;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: #486B43;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .sliderContent {
+    display: flex;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .image {
+    width: 130px;
+    /* height: 100px; */
+    margin: 0 80px;
+  }
+  
+  /* Важное: Этот код удваивает содержимое, чтобы создать эффект бесконечного прокручивания */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

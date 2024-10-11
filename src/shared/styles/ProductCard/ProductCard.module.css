@@ -1,0 +1,124 @@
+.card {
+  position: relative;
+  width: 280px;
+  height: 350px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.borderTopLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../assets/images/productCart-images/border-top-left.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.borderTopRight {
+  position: absolute;
+  top: 0;
+  right: -8px;
+  width: 80px;
+  height: 80px;
+  background-image: url("../../../assets/images/productCart-images/border-top-right.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.borderBottomLeft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../../assets/images/productCart-images/border-bottom-left.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.borderBottomRight {
+  position: absolute;
+  bottom: 0;
+  right: -5px;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../../assets/images/productCart-images/border-bottom-right.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.titleImage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
+
+.title {
+  font-size: 1.3em;
+  margin: 0;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  flex: 1;
+  object-fit: cover;
+  padding: 0 60px;
+}
+
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.buttonRight {
+  padding: 10px 12px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #486b43;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.buttonLeft {
+  padding: 10px 12px;
+  font-size: 1em;
+  color: #486b43;
+  background-color: #fff;
+  border: 1px solid #486b43;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonLeft:hover {
+  background-color: #b0daaa;
+}
+.buttonRight:hover {
+  background-color: #7eb677;
+}

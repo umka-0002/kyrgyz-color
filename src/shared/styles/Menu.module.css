@@ -1,0 +1,30 @@
+.menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 300px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .open {
+    display: flex;
+  }
+  
+  .ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .li {
+    margin: 10px 0;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+  }
+  
