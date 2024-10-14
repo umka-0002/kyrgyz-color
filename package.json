@@ -29,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,11 +52,13 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "gh-pages": "^6.2.0"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.",
   "main": "index.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://umka-0002.github.io/kyrgyz-color/"
 }
